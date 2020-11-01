@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Item
+  - Spawner
+  - Wall
+  - WallSpawner
+  - CoinSpawner
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - Player
+  - Item
+  - Obstacle
+  - InvisibleWall
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3676873457
+    locked: 0
+  - name: Obstacle
+    uniqueID: 3935949391
+    locked: 0
+  - name: Item
+    uniqueID: 977957867
+    locked: 0
+  - name: Player
+    uniqueID: 374696111
+    locked: 0
