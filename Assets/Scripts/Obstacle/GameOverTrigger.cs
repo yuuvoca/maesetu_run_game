@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameOverTrigger : MonoBehaviour
 {
@@ -18,6 +19,9 @@ public class GameOverTrigger : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             gameManager.GameOver();
+            SceneManager.LoadScene("result");
+            Debug.Log("ゲームオーバー完治しました");
+
         }
     }
 
