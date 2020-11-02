@@ -96,6 +96,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -826,6 +827,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2009567433, guid: a30b40498220f3a4e9ecabf422f3030b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 2.6999512
+      objectReference: {fileID: 0}
     - target: {fileID: 1023469985632610399, guid: a30b40498220f3a4e9ecabf422f3030b,
         type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1188,6 +1193,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1597,12 +1603,12 @@ PrefabInstance:
     - target: {fileID: 6485691861198456353, guid: 00fab45fee25d0146a7c6d470e75ab9c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 394.36792
+      value: 409.20728
       objectReference: {fileID: 0}
     - target: {fileID: 6485691861198456353, guid: 00fab45fee25d0146a7c6d470e75ab9c,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 756.73584
+      value: 786.41455
       objectReference: {fileID: 0}
     - target: {fileID: 6485691861198456353, guid: 00fab45fee25d0146a7c6d470e75ab9c,
         type: 3}
@@ -2017,7 +2023,7 @@ PrefabInstance:
     - target: {fileID: 7918519797975264388, guid: 3e1f828ac74d5944db597ed0f65a7358,
         type: 3}
       propertyPath: m_Text
-      value: "\u30B9\u30BF\u30FC\u30C8"
+      value: "\u30B9\u30BF\u30FC\u30C8\u30F3\u30B4\u304A\u304A\u304A"
       objectReference: {fileID: 0}
     - target: {fileID: 7918519797975264388, guid: 3e1f828ac74d5944db597ed0f65a7358,
         type: 3}
