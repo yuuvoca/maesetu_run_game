@@ -96,6 +96,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -258,6 +259,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b509279230710d49b1637490eb20b51, type: 3}
+--- !u!1 &1383821827 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7624344194247075477, guid: 7b509279230710d49b1637490eb20b51,
+    type: 3}
+  m_PrefabInstance: {fileID: 938229537}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1383821831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383821827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d9384e22093f47edbbffa52fb9a9afb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1639185521
 PrefabInstance:
   m_ObjectHideFlags: 0
