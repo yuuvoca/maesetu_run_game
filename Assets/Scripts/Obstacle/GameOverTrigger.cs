@@ -7,10 +7,16 @@ public class GameOverTrigger : MonoBehaviour
 {
 
     GameManager gameManager;
-    
+   // public GameObject resultUI;
+    //public GameObject floor;
+    GameObject maincanvas;
+
     void Start()
     {
         gameManager = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
+        maincanvas = GameObject.Find("MainCanvas(Clone)");
+
+        Debug.Log(maincanvas);
     }
 
     //プレイヤーが触れたらゲームオーバーにする
@@ -19,9 +25,26 @@ public class GameOverTrigger : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             gameManager.GameOver();
-            SceneManager.LoadScene("result");
+
             Debug.Log("ゲームオーバー完治しました");
 
+            //resultUI.gameObject.SetActive(true);
+            //floor.gameObject.SetActive(false);
+            maincanvas.gameObject.SetActive(false);
+
+            //maincanvas.gameObject.SetActive(true);
+
+
+            maincanvas.gameObject.SetActive(true);
+
+
+
+
+        }
+
+        else
+        {
+            //resultUI.gameObject.SetActive(false);
         }
     }
 
