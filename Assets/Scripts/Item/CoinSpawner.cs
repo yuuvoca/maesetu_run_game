@@ -86,7 +86,7 @@ public class CoinSpawner : MonoBehaviour
     {
         isSpawning = true;
 
-        RaycastHit2D hit = Physics2D.CircleCast(transform.position, 0.25f, Vector2.down, Mathf.Infinity); //下向きにレイを飛ばす
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, Mathf.Infinity); //下向きにレイを飛ばす
         float spawnPositionY = hit.point.y; //レイが当たったY座標を取得
 
         spawnPositionY += Random.Range(minPositionOffsetY, maxPositionOffsetY); //高さをランダムにずらす
